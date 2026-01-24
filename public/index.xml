@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vijay Bambhaniya</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Vijay Bambhaniya</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Jan 2026 14:38:04 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 24 Jan 2026 14:38:04 +0530</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Software Engineer&lt;/strong&gt; | Bangalore, India&lt;/p&gt;
+&lt;p&gt;Software engineering leader with over 12 years of experience, specializing in designing scalable systems and leading high-performing teams to achieve strategic objectives through OKR-driven approaches. Passionate about solving complex technical challenges and building world-class products that deliver measurable impact. Driven by a collaborative mindset, I excel in agile and startup environments, aligning technical innovation with business goals using OKR frameworks to drive engineering excellence.&lt;/p&gt;
+&lt;h2 id=&#34;experience-highlights&#34;&gt;Experience Highlights&lt;/h2&gt;
+&lt;h3 id=&#34;lead-engineer--acko-insurance&#34;&gt;Lead Engineer @ Acko Insurance&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;July 2022 – Present&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

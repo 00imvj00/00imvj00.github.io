@@ -1,0 +1,72 @@
+/* Import Roboto Mono font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
+/* Custom CSS to reduce font sizes across the site */
+
+:root {
+    --font-size: 13px;
+    --content-gap: 16px;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.main {
+    font-size: 13px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+    font-size: 1.3rem;
+}
+
+h2 {
+    font-size: 1.15rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: 0.95rem;
+}
+
+h5, h6 {
+    font-size: 0.9rem;
+}
+
+.post-title {
+    font-size: 1.4rem;
+}
+
+.post-content {
+    font-size: 13px;
+}
+
+.post-meta {
+    font-size: 11px;
+}
+
+p {
+    font-size: 13px;
+}
+
+code {
+    font-size: 12px;
+}
+
+pre {
+    font-size: 12px;
+}
+
+.nav a {
+    font-size: 13px;
+}
+
+footer {
+    font-size: 11px;
+}

@@ -1,0 +1,26 @@
+baseURL = 'https://00imvj00.github.io/'
+languageCode = 'en-us'
+title = 'Vijay Bambhaniya'
+theme = 'PaperMod'
+
+[params]
+  description = "Welcome to my personal blog and portfolio"
+  author = "00imvj00"
+  
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/00imvj00"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
