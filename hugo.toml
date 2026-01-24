@@ -4,12 +4,27 @@ title = 'Vijay Bambhaniya'
 theme = 'PaperMod'
 
 [params]
-  description = "Welcome to my personal blog and portfolio"
-  author = "00imvj00"
+  description = "Software Engineering Leader | 12+ Years Experience | Building Scalable Systems"
+  author = "Vijay Bambhaniya"
   
+  [params.homeInfoParams]
+    Title = "Hi, I'm Vijay 👋"
+    Content = """
+Software Engineering Leader with 12+ years of experience designing scalable systems and leading high-performing teams. 
+Currently at **Acko Insurance** building travel insurance platforms and AI-powered solutions.
+
+Passionate about solving complex technical challenges, Domain Driven Design, and mentoring engineers.
+"""
+
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/00imvj00"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/vijay-enggr"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:socialforvijay@gmail.com"
 
 [menu]
   [[menu.main]]
