@@ -43,3 +43,7 @@ Passionate about solving complex technical challenges, Domain Driven Design, and
     name = "About"
     url = "/about/"
     weight = 4
+
+[services]
+  [services.googleAnalytics]
+    id = "G-4TWMQ7ZZ4P"
