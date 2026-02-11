@@ -5,5 +5,8 @@
     {{- else }}
     <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
     {{- end }}
+    {{- if site.Params.socialIcons }}
+    {{ partial "social_icons.html" (dict "align" "center") }}
+    {{- end }}
 </footer>
 {{- end }}

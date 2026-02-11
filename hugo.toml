@@ -32,10 +32,14 @@ Passionate about solving complex technical challenges, Domain Driven Design, and
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Posts"
+    name = "Thoughts"
     url = "/posts/"
     weight = 2
   [[menu.main]]
+    name = "Tenets"
+    url = "/tenets/"
+    weight = 3
+  [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 4
