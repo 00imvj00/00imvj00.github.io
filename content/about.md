@@ -1,7 +1,9 @@
 +++
 date = '2026-01-24T14:38:04+05:30'
 draft = false
-title = 'About'
+title = 'About — Vijay Bambhaniya'
+description = 'Software Engineering Leader with 12+ years experience in scalable systems, domain driven design, and technical leadership at Acko Insurance.'
+tags = ['about', 'software engineering', 'technical leadership']
 +++
 
 
