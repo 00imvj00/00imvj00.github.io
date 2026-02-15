@@ -1,0 +1,72 @@
+{{- /* Extended head: enhanced structured data for rich search results */ -}}
+
+{{- /* WebSite schema — enables Google Sitelinks search box */ -}}
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.Title }}",
+  "url": "{{ site.BaseURL }}",
+  "description": "{{ site.Params.description }}",
+  "inLanguage": "{{ site.LanguageCode | default "en-us" }}",
+  "publisher": {
+    "@type": "Person",
+    "name": "{{ site.Params.author }}",
+    "url": "{{ site.BaseURL }}about/",
+    "jobTitle": "Software Engineering Leader",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Acko Insurance"
+    },
+    "image": "{{ "images/vijay.jpg" | absURL }}",
+    "knowsAbout": ["Software Architecture", "Domain Driven Design", "Backend Engineering", "Scalable Systems", "Technical Leadership"],
+    "sameAs": [
+      {{- $first := true -}}
+      {{- range site.Params.socialIcons -}}
+        {{- if not (eq .name "email") -}}
+          {{- if not $first }}, {{ end }}"{{ .url }}"
+          {{- $first = false -}}
+        {{- end -}}
+      {{- end }}
+    ]
+  }
+}
+</script>
+{{- end }}
+
+{{- /* ProfilePage schema for About page — helps Google show author card */ -}}
+{{- if and .File (eq .File.LogicalName "about.md") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "{{ site.Params.author }}",
+    "url": "{{ .Permalink }}",
+    "jobTitle": "Software Engineering Leader",
+    "image": "{{ "images/vijay.jpg" | absURL }}",
+    "description": "{{ .Description }}",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Acko Insurance"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Birla Vishwakarma Mahavidyalaya"
+    },
+    "knowsAbout": ["Go", "Java", "Node.js", "Software Architecture", "Domain Driven Design", "Microservices", "Event Driven Architecture"],
+    "sameAs": [
+      {{- $first := true -}}
+      {{- range site.Params.socialIcons -}}
+        {{- if not (eq .name "email") -}}
+          {{- if not $first }}, {{ end }}"{{ .url }}"
+          {{- $first = false -}}
+        {{- end -}}
+      {{- end }}
+    ]
+  }
+}
+</script>
+{{- end }}

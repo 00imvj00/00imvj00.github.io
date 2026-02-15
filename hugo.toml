@@ -1,11 +1,27 @@
-baseURL = 'https://00imvj00.github.io/'
+baseURL = 'https://domainforvijay.in/'
 languageCode = 'en-us'
 title = 'Vijay Bambhaniya'
 theme = 'PaperMod'
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.5
+  filename = 'sitemap.xml'
 
 [params]
+  env = "production"
   description = "Software Engineering Leader | 12+ Years Experience | Building Scalable Systems"
   author = "Vijay Bambhaniya"
+  keywords = ["software engineering", "system design", "architecture", "backend engineering", "domain driven design", "technical leadership", "scalable systems", "Vijay Bambhaniya"]
+  images = ["/images/site-cover.png"]
+
+  [params.schema]
+    publisherType = "Person"
+
+  # Uncomment below to add Google Search Console verification
+  # [params.analytics.google]
+  #   SiteVerificationTag = "your-google-site-verification-tag"
   
   [params.homeInfoParams]
     Title = "Hi, I'm Vijay 👋"
@@ -47,3 +63,11 @@ Passionate about solving complex technical challenges, Domain Driven Design, and
 [services]
   [services.googleAnalytics]
     id = "G-4TWMQ7ZZ4P"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
