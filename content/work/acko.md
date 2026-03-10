@@ -4,13 +4,11 @@ date: 2026-02-25
 tags: ["software engineering", "technical leadership", "architecture", "operations"]
 draft: false
 ---
-
 ## Working at Acko
 
 **Timeline:** July 2022 – Present
 
-I joined as a Lead Software Engineer in the Embedded team. Over three years, I've grown from leading individual projects → to engineering managing a team → to acting as a Staff Engineer driving technical direction across multiple product lines.
-
+draft: true
 ---
 
 ### 2022 — Joining & First Deliveries

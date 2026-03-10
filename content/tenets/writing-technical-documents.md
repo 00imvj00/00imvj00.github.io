@@ -6,14 +6,12 @@ tags: ["technical-design", "documentation", "architecture"]
 draft: false
 weight: 2
 ---
-
 ## The Core Belief
 
 A technical document is not a ritual — it's a thinking tool. If it doesn't force clarity, challenge assumptions, and surface risks before a single line of code is written, it's just bureaucracy with a Google Doc link.
 
-The best tech doc isn't the longest one. It's the one where every section made someone uncomfortable enough to ask a better question.
+draft: true
 
-Greenfield and brownfield projects demand fundamentally different documents. This protocol covers both — structured around the six layers of a [healthy service](/tenets/anatomy-of-a-healthy-service/).
 
 ---
 

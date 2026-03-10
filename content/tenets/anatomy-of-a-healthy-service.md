@@ -6,14 +6,12 @@ tags: ["architecture", "operations", "services"]
 draft: false
 weight: 1
 ---
-
 ## The Core Belief
 
 A service isn't "done" when the feature works. A service is done when it can be built, deployed, observed, debugged, and handed to another team — all without the original author in the room.
 
-Most services rot not because of bad code, but because of missing *infrastructure around the code*. This tenet maps the complete anatomy — from the first commit to the 3 AM page — so you can see exactly where your service stands and what's missing.
+draft: true
 
----
 
 ## The Big Picture
 
