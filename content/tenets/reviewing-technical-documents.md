@@ -3,7 +3,7 @@ title: "#3 — The Art of Technical Document Review"
 date: 2026-02-11
 description: "A reviewer's guide to technical documents — because approving without questioning is just co-signing someone else's assumptions."
 tags: ["technical-design", "documentation", "code-review"]
-draft: false
+draft: true
 weight: 3
 ---
 ## The Core Belief
