@@ -52,14 +52,6 @@ Passionate about solving complex technical challenges, Domain Driven Design, and
     url = "/posts/"
     weight = 2
   [[menu.main]]
-    name = "Tenets"
-    url = "/tenets/"
-    weight = 3
-  [[menu.main]]
-    name = "Work"
-    url = "/work/"
-    weight = 4
-  [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 5

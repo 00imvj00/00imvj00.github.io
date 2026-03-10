@@ -6,14 +6,12 @@ tags: ["technical-design", "documentation", "code-review"]
 draft: false
 weight: 3
 ---
-
 ## The Core Belief
 
 Reviewing a technical document is not reading it. Reading is passive. Reviewing is adversarial collaboration — you are trying to break the design on paper so it doesn't break in production.
 
-An approval with zero comments means one of two things: the design is perfect (it isn't), or nobody actually reviewed it. Most of the time, it's the second one.
+draft: true
 
-Your job as a reviewer is not to be right. It's to make the author *more* right.
 
 ---
 
