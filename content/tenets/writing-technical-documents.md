@@ -3,14 +3,13 @@ title: "#2 — Technical Design Documents Done Right"
 date: 2026-02-11
 description: "How to write technical documents that survive contact with reality — from empty canvas to legacy minefield."
 tags: ["technical-design", "documentation", "architecture"]
-draft: false
+draft: true
 weight: 2
 ---
 ## The Core Belief
 
 A technical document is not a ritual — it's a thinking tool. If it doesn't force clarity, challenge assumptions, and surface risks before a single line of code is written, it's just bureaucracy with a Google Doc link.
 
-draft: true
 
 
 ---

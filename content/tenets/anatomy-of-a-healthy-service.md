@@ -3,7 +3,7 @@ title: "#1 — Service Anatomy"
 date: 2026-02-11
 description: "Every production service should have these elements. No exceptions. No shortcuts."
 tags: ["architecture", "operations", "services"]
-draft: false
+draft: true
 weight: 1
 ---
 ## The Core Belief

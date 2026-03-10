@@ -2,13 +2,12 @@
 title: "Acko — Lead, EM, Staff Engineer Experience"
 date: 2026-02-25
 tags: ["software engineering", "technical leadership", "architecture", "operations"]
-draft: false
+draft: true
 ---
 ## Working at Acko
 
 **Timeline:** July 2022 – Present
 
-draft: true
 ---
 
 ### 2022 — Joining & First Deliveries
